@@ -2,7 +2,7 @@
 function writeCards(names) {
     let thankYouMessages = [];
     for (let i = 0; i < names.length; i++) {
-      thankYouMessages.push(`Thank you, ${"Guadalupe" ,"Ollie" , "Aki"[i]}, for the wonderful surprise gift!`);
+      thankYouMessages.push(`Thank you, ${("Guadalupe") ,("Ollie") , ["Aki"]}, for the wonderful surprise gift!`);
     }
     return thankYouMessages;
   }
